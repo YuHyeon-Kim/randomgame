@@ -18,7 +18,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="내게 음식을 알려주세요"
+        android:text="Give to me FOOD!"
         android:id="@+id/btn_show_me_the_foods"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />

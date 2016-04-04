@@ -35,6 +35,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
      */
     @Override
     public void onClick(View v) {
-        Toast.makeText(this, "아이우에오", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "F.O.O.D.!", Toast.LENGTH_LONG).show();
     }
+    //눌렀을때 잠깐뜬다
 }
