@@ -1,5 +1,6 @@
 package kr.hs.emirim.dbgus3577.monfood;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,7 +36,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
      */
     @Override
     public void onClick(View v) {
+
         Toast.makeText(this, "F.O.O.D.!", Toast.LENGTH_LONG).show();
+        //눌렀을때 잠깐뜬다
+        Intent intent = new Intent(this, ResultActivity.class);
+        startActivity(intent);
     }
-    //눌렀을때 잠깐뜬다
 }
