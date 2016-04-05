@@ -50,6 +50,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         try {
             Toast.makeText(this, name + " F.O.O.D.!", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(this, ResultActivity.class);
+            intent.putExtra("name", name);
+            intent.putExtra("age", 18);
             startActivity(intent);
         } catch(NullPointerException e) {
             Toast.makeText(this, name + "이름을 입력해주세요~", Toast.LENGTH_LONG).show();
