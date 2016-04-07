@@ -59,5 +59,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             //나머지 이외
             Toast.makeText(this, "뭔지 모르겠지만 잘 안되네요!", Toast.LENGTH_LONG).show();
         }
+
+
     }
 }
