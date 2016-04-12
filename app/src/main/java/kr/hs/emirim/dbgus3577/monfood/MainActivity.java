@@ -53,13 +53,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             intent.putExtra("name", name);
             intent.putExtra("age", 18);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         } catch(NullPointerException e) {
             Toast.makeText(this, name + "이름을 입력해주세요~", Toast.LENGTH_LONG).show();
         } catch (Exception e){
             //나머지 이외
             Toast.makeText(this, "뭔지 모르겠지만 잘 안되네요!", Toast.LENGTH_LONG).show();
         }
-
-
     }
 }
